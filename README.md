@@ -1,3 +1,5 @@
-# This is a school project
+# Log in page
 
-## This is a HTML and CSS project only
+##This is a school project
+
+### This is a HTML and CSS project only
