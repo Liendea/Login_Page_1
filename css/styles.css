@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("/images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg");
+  background-image: url("/images/forest.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -27,12 +27,15 @@ body {
   padding: 1rem;
 }
 
+/* ===== Text ===== */
 h1 {
   margin: 2rem;
   text-align: center;
 }
 
-.input-box input {
+/* ===== Input field ===== */
+
+input {
   border-radius: 10px;
   font-size: 1rem;
   width: 100%;
@@ -40,15 +43,6 @@ h1 {
   margin: 0.5rem 0rem 0.5rem 0rem;
   padding: 0.5rem;
   color: darkolivegreen;
-  border: none;
-}
-
-.remember-forgot {
-  padding: 0rem 0.5rem 0rem 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
 }
 
 .checkbox {
@@ -57,6 +51,24 @@ h1 {
   accent-color: green;
   transform: translateY(3px);
 }
+
+/* remember me & forgot password container */
+.remember-forgot {
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+/* terms & conditions container */
+.terms {
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+/* ===== Links ===== */
 
 a {
   color: white;
@@ -68,20 +80,6 @@ a:hover {
   text-decoration: underline;
 }
 
-button {
-  color: darkolivegreen;
-  font-size: 1rem;
-  width: 100%;
-  padding: 0.5rem;
-  border-radius: 10px;
-  border: none;
-}
-
-button:hover {
-  background-color: rgb(215, 242, 224);
-  cursor: pointer;
-}
-
 .register,
 .sign-in {
   font-size: 0.8rem;
@@ -89,10 +87,23 @@ button:hover {
   text-align: center;
 }
 
-.terms {
-  font-size: 0.8rem;
-}
-
 .terms a {
   font-style: italic;
+}
+
+/* ===== Buttons ===== */
+
+button {
+  color: darkolivegreen;
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  margin: 0.8rem 0rem;
+}
+
+button:hover {
+  background-color: rgb(215, 242, 224);
+  cursor: pointer;
 }
