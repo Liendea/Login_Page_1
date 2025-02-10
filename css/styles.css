@@ -46,6 +46,10 @@ input {
   border: none;
 }
 
+input:focus {
+  outline: 1px solid green;
+}
+
 .checkbox {
   width: 1rem;
   height: 1rem;
