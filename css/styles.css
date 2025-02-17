@@ -99,6 +99,7 @@ a:hover {
 /* ===== Buttons ===== */
 
 button {
+  background-color: white;
   color: darkolivegreen;
   font-size: 1rem;
   width: 100%;
